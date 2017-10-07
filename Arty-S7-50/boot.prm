@@ -1,0 +1,13 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x00176057    Oct  6 21:47:27 2017    /home/digilent/work/git/Petalinux-Arty-S7-50/Arty-S7-50/download.bit
+0x00180000    0x001D03FF    Oct  6 20:56:44 2017    /home/digilent/work/git/Petalinux-Arty-S7-50/Arty-S7-50/images/linux/u-boot-s.bin
+0x00220000    0x00BE74A7    Oct  6 20:59:08 2017    /home/digilent/work/git/Petalinux-Arty-S7-50/Arty-S7-50/images/linux/image.ub

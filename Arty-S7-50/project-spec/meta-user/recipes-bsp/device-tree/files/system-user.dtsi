@@ -1,0 +1,8 @@
+/include/ "system-conf.dtsi"
+/ {
+};
+
+&flash0 {
+	compatible = "s25fl128s";
+};
+
