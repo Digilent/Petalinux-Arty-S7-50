@@ -1,4 +1,4 @@
-# Arty Z7-20 Petalinux BSP Project
+# Arty S7-50 Petalinux BSP Project
 
 ## Built for Petalinux 2017.2
 
