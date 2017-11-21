@@ -765,7 +765,6 @@ CONFIG_packagegroup-core-boot=y
 #
 # user packages 
 #
-CONFIG_lrzsz=y
 
 #
 # PetaLinux RootFS Settings

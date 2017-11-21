@@ -1,8 +1,4 @@
 
-
-
-
-
 YAML_BSP_CONFIG[FLASH_MEMORY] = "set,axi_quad_spi_0"
 YAML_BSP_CONFIG[STDIN] = "set,axi_uartlite_0"
 XSCTH_WS = "${TOPDIR}/../components/plnx_workspace"

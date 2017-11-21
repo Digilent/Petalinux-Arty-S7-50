@@ -1,8 +1,4 @@
 
-
-
-
-
 FILESEXTRAPATHS_prepend := "${THISDIR}/configs:"
 SRC_URI_append ="\
     file://config.mk\

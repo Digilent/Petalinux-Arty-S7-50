@@ -1,6 +1,4 @@
 
-
-
 DT_PADDING_SIZE = "0x1000"
 XSCTH_WS = "${TOPDIR}/../components/plnx_workspace"
 KERNEL_DTS_INCLUDE = "${STAGING_KERNEL_DIR}/include"
