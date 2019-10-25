@@ -122,8 +122,6 @@ Flash. For instructions on doing this, see the documentation included with the V
 
 This section is only relevant for those who wish to upstream their work or version control their own project correctly on Github.
 
-First, remove the TMPDIR setting from project-spec/configs/config.
-
 ```
 cd ..
 git status # to double-check
