@@ -91,23 +91,15 @@ Whenever you want to run any petalinux commands, you will need to first start by
 source /opt/pkg/petalinux/settings.sh
 ```
 
-### Generate project
-
-If you have obtained the project source directly from github, then you should simply _cd_ into the Petalinux project directory. If you have downloaded the 
-.bsp, then you must first run the following command to create a new project.
-
-```
-petalinux-create -t project -s <path to .bsp file>
-```
-
-This will create a new petalinux project in your current working directory, which you should then _cd_ into.
-
 ### Build the petalinux project
 
 Run the following commands to build the petalinux project with the default options:
 
 ```
-petalinux-config --oldconfig
+git clone https://github.com/Digilent/Petalinux-Arty-S7-50.git
+cd Petalinux-Arty-S7-50/Arty-S7-50/
+git submodule update --init
+petalinux-config
 petalinux-build
 ```
 The next step is to create the .mcs file to program the onboard flash, however petalinux-package is currently failing to combine the bitstream with the
